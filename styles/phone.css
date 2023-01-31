@@ -1,0 +1,126 @@
+/* navbar */
+#navbar{
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+#navbar ul li a{
+    font-size: 14px;
+}
+/* Home */
+#home{
+    padding: 0px 15px ;
+    height: 455px;
+}
+#home p{
+    font-size: 14px;
+}
+.disclaimer{
+    font-size: 12px;
+
+}
+/* Services */
+
+#services{
+    flex-direction: column;
+    
+}
+#services .box{
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+/* Contact */
+#contact-section{
+    justify-content: center;
+    align-items: center;
+}
+#contacts {
+    flex-direction: column; 
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#follow-us {
+    align-items: center;
+}
+
+#social-links {
+    flex-direction: row;
+}
+
+#social-links a {
+    padding: 3px 7px;
+}
+
+#social-links a span {
+    display: none;
+}
+.social-link-icon img {
+    width: 20px;
+    height: 20px;
+    justify-content: contain;
+}
+
+#listen-to {
+    border: none;
+    padding: 0px;
+}
+
+#music-links {
+    display: flex;
+}
+
+#blesshead {
+    font-size: 18px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.listen-to-link-icon {
+    padding: 5px 10px;
+    display: flex;
+
+}
+
+.listen-to-link-icon img {
+    height: 20px;
+}
+
+/* form */
+#form-container {
+    width: 250px;
+    font-size: 9px;
+    margin-top: 8px;
+}
+
+.form-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form-container input,
+#form-container textarea {
+    width: 75%;
+    margin-bottom: 7px;
+    font-size: 9px;
+    padding: 5px 2px;
+
+
+}
+
+#feedback {
+    min-height: 10px;
+    max-height: 30px;
+
+}
+
+/* Footer  */
+footer{
+    font-size: 10px;
+}
+/* Utility */
+.h-primary{
+    font-size: 28px;
+    padding: 5px;
+}
